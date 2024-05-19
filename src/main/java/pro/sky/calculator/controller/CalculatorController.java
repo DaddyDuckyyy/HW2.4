@@ -53,7 +53,7 @@ public class CalculatorController {
         if (num1 == null || num2 == null) {
             return "Неверные данные";
         } else if (num2 == 0) {
-            return"На ноль делить нельзя";
+            return "На ноль делить нельзя";
         } else {
             return num1 + "/" + num2 + "=" + service.divide(num1, num2);
         }
